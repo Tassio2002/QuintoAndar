@@ -1,0 +1,446 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/*Incio do header*/
+
+header {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background-color: white;
+  box-shadow: 0px 0px 15px 0px rgba(179, 179, 179, 0.74);
+}
+
+header img {
+  width: 250px;
+}
+
+header img:hover {
+  cursor: pointer;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  margin-left: 40px;
+}
+
+header ul li {
+  margin-right: 70px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #586af8;
+  font-size: 15px;
+}
+
+header ul li a:hover {
+  border-bottom: 1px solid #7282f9;
+}
+
+header button {
+  width: 148px;
+  height: 44px;
+  border: none;
+  background-color: #5063f8;
+  color: white;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+header button:hover {
+  background-color: #7282f9;
+  cursor: pointer;
+}
+
+/*Fim do header*/
+/*Inicio do main*/
+
+main {
+  width: 100%;
+  padding: 100px 0;
+}
+
+#col {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#col h2 {
+  color: #757575;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+#col h1 {
+  width: 23%;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 500;
+  color: #2e2e2e;
+}
+
+#line {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  text-align: center;
+}
+
+#line h3 {
+  padding-bottom: 5px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#line p {
+  width: 50%;
+  padding-bottom: 5px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+#line a {
+  color: #5063f8;
+}
+
+#about {
+  width: 100%;
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/somos.png);
+  background-position: 0px;
+  color: white;
+}
+
+#about h1 {
+  font-size: 40px;
+}
+
+#video {
+  display: flex;
+  padding: 100px 250px;
+}
+
+#video-text {
+  width: 40%;
+  margin-right: 100px;
+}
+
+#video-text h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  color: #2e2e2e;
+}
+
+#video-text p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/*FIm do main*/
+
+/*Inicio da section smartphone*/
+
+#smartphone {
+  width: 100%;
+  height: 400px;
+  padding: 115px 250px;
+  display: flex;
+  position: relative;
+  background-color: #5063f8;
+}
+
+#smartphone .smartphone-text {
+  width: 40%;
+  color: white;
+}
+
+.smartphone-text h2 {
+  font-size: 30px;
+  padding: 15px 0;
+}
+
+.smartphone-text p {
+  width: 85%;
+  font-weight: 500;
+}
+
+#smartphone img {
+  height: calc(100% + 6rem);
+  position: absolute;
+  right: 25%;
+  top: -3rem;
+}
+
+/*Fim section smartphone*/
+
+/*Inicio section more-info*/
+
+#more-info {
+  width: 100%;
+  padding: 100px 250px;
+  background-color: #f4f4f4;
+}
+
+#more-info h3 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: #757575;
+}
+
+#more-info h1 {
+  text-align: center;
+  padding: 25px 0 60px 0;
+  font-size: 50px;
+  color: #2e2e2e;
+}
+
+#more-info .line {
+  display: flex;
+  padding: 30px 0;
+}
+
+#more-info .text-box {
+  width: 33%;
+}
+
+.text-box h2 {
+  padding: 10px 0;
+  font-size: 35px;
+  font-weight: 500;
+  color: #5063f8;
+}
+
+.text-box span {
+  font-weight: 500;
+}
+
+.text-box p {
+  width: 80%;
+  padding: 10px 0;
+  font-weight: 400;
+}
+
+/*Fim section more-info*/
+
+/*Inicio da section form*/
+
+#contact {
+  padding: 100px 250px;
+  margin-bottom: 5em;
+}
+
+#contact h3 {
+  padding-top: 35px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: #757575;
+}
+
+#contact h1 {
+  text-align: center;
+  padding: 25px 0 60px 0;
+  font-size: 50px;
+  color: #2e2e2e;
+}
+
+#contact .flex-contact {
+  display: flex;
+}
+
+.flex-contact img {
+  width: 35%;
+  border-radius: 20px;
+}
+
+.form-inputs {
+  width: 50%;
+}
+
+.form-inputs form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 1%;
+}
+
+form input {
+  width: 70%;
+  padding: 10px 0;
+  border: 1px solid rgb(172, 142, 142);
+  border-radius: 10px;
+}
+
+form button {
+  width: 30%;
+  padding: 10px 0;
+  margin: 2% 0 0 70px;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #5063f8;
+}
+
+/*Fim da section form*/
+
+/*Inicio da secão contato*/
+
+#contact2 {
+  width: 100%;
+}
+.contact-container {
+  max-height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-container {
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: #5063f8;
+}
+
+.left-container h3 {
+  padding: 1em 0;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.left-container h1 {
+  padding: 1em 0;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.left-container .links {
+  display: flex;
+}
+
+.links .link:first-of-type {
+  padding-right: 25em;
+}
+
+.link h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.link a {
+  font-size: 14px;
+  color: white;
+}
+
+/*Fim da secão contato*/
+
+/*Inicio do footer*/
+
+footer {
+  padding: 200px 250px;
+}
+
+footer .footer-container:first-of-type {
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.footer-container .box-1 {
+  width: 33%;
+  max-width: 300px;
+  margin-right: 10em;
+}
+
+.box-1 img {
+  width: 15em;
+}
+
+.box-1 p {
+  font-size: 14px;
+}
+
+.box-2,
+.box-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-2 a,
+.box-3 a {
+  padding-bottom: 0.5em;
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+.container-2 {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-infos {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-infos span {
+  padding-bottom: 0.5em;
+}
+
+.footer-infos a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons img {
+  width: 32px;
+  margin-right: 0.5em;
+}
+
+.container-3 a {
+  text-decoration: none;
+  padding-right: 1em;
+}
+/*Fim do footer*/
